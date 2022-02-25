@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Date: Fri, 25 Feb 2022 16:59:42 GMT
+Server: WSGIServer/0.2 CPython/3.8.12
+Content-Type: application/json
+Vary: Accept, Cookie
+Allow: GET, OPTIONS
+X-Frame-Options: DENY
+Content-Length: 7879
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+

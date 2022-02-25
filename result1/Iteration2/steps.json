@@ -1,0 +1,32 @@
+[
+    {
+        "stepId": "STEP6",
+        "stepName": "Url: localhost:23232",
+        "infFile": "t1.inf",
+        "time": 1645810962308
+    },
+    {
+        "stepId": "STEP7",
+        "stepName": "Url: Log In",
+        "infFile": "t3.inf",
+        "time": 1645810962669
+    },
+    {
+        "stepId": "STEP8",
+        "stepName": "Submit Data: login",
+        "infFile": "t4.inf",
+        "time": 1645810963385
+    },
+    {
+        "stepId": "STEP9",
+        "stepName": "Url: eyJmaWx0ZXJpbmciOiB7InN0YXR1c19faW4iOiBbMSwgMl19LCAic29ydGluZyI6ICJjcmVhdGVkIiwgInNlYXJjaF9zdHJpbmciOiAiIiwgInNvcnRyZXZlcnNlIjogZmFsc2V9",
+        "infFile": "t5.inf",
+        "time": 1645810963695
+    },
+    {
+        "stepId": "STEP10",
+        "stepName": "Url: logout",
+        "infFile": "t6.inf",
+        "time": 1645810966286
+    }
+]

@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\netz1\Documents\VuGen\Scripts\WebHttpHtml5
+-IC:\Program Files (x86)\HPE\LoadRunner\include
+-ec:\users\netz1\documents\vugen\scripts\webhttphtml5\\logfile.log
+c:\users\netz1\documents\vugen\scripts\webhttphtml5\\combined_WebHttpHtml5.c
+c:\users\netz1\documents\vugen\scripts\webhttphtml5\\pre_cci.c

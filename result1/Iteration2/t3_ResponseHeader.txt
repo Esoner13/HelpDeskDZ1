@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Date: Fri, 25 Feb 2022 17:42:41 GMT
+Server: WSGIServer/0.2 CPython/3.8.12
+Content-Type: text/html; charset=utf-8
+Expires: Fri, 25 Feb 2022 17:42:41 GMT
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate, private
+Vary: Cookie
+X-Frame-Options: DENY
+Content-Length: 6064
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+Set-Cookie:  csrftoken=THuxNIspSnfF3h2jl7lgt7ZHtuGF9rweQLJkOKWRtnJTZFOJ5V5puvo7ZG8vJLFX; expires=Fri, 24 Feb 2023 17:42:41 GMT; Max-Age=31449600; Path=/; SameSite=Lax
+

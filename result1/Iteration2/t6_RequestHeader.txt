@@ -1,0 +1,10 @@
+GET /logout/ HTTP/1.1
+Referer: http://localhost:23232/tickets/
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Accept-Language: ru,en-US;q=0.7,en;q=0.3
+Accept: */*
+Connection: Keep-Alive
+Host: localhost:23232
+Cookie: csrftoken=THuxNIspSnfF3h2jl7lgt7ZHtuGF9rweQLJkOKWRtnJTZFOJ5V5puvo7ZG8vJLFX
+

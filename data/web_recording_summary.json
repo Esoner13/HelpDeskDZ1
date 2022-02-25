@@ -1,0 +1,488 @@
+{
+  "FilterHeaders": [
+    {
+      "Header": "x-requested-with",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "user-agent",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "origin",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "cache-control",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-language",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-encoding",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept",
+      "IncludeInScript": false
+    }
+  ],
+  "FilterResources": [
+    {
+      "IsNonResource": true,
+      "type": "text/html"
+    },
+    {
+      "IsNonResource": false,
+      "type": "text/css"
+    },
+    {
+      "IsNonResource": false,
+      "type": "font/woff"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/vnd.ms-fontobject"
+    },
+    {
+      "IsNonResource": true,
+      "type": "application/json"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/javascript"
+    }
+  ],
+  "GeneralInfo": {
+    "BrowserVersion": "",
+    "MaxUsedConnections": 6,
+    "RecordedBrowser": "Internet Explorer",
+    "RecordingDate": "С„РµРІ-25-2022",
+    "RecordingDuration": 52906,
+    "RecordingTimeStamp": 1645806893,
+    "TotalBytesReceived": 2207297,
+    "TotalBytesSent": 20731,
+    "TotalRequests": 42
+  },
+  "HostInfo": [
+    {
+      "DomainName": "microsoft.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "23.66.21.99",
+          "IncludeInScript": true,
+          "Name": "go.microsoft.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 62,
+              "EventId": 582,
+              "HttpStatus": 302,
+              "Size": 0,
+              "URL": "https://go.microsoft.com/fwlink/?linkid=2133855&bucket=13&customertype=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 63,
+              "EventId": 569,
+              "HttpStatus": 302,
+              "Size": 0,
+              "URL": "https://go.microsoft.com/fwlink/?linkid=2133855&bucket=13&customertype=1"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES256-SHA",
+          "SSLVersion": "TLS1.1"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "localhost",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "[::1]",
+          "IncludeInScript": true,
+          "Name": "localhost",
+          "Port": 23232,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 109,
+              "EventId": 650,
+              "HttpStatus": 200,
+              "Size": 12107,
+              "URL": "http://localhost:23232/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 47,
+              "EventId": 645,
+              "HttpStatus": 302,
+              "Size": 0,
+              "URL": "http://localhost:23232/logout/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 188,
+              "EventId": 634,
+              "HttpStatus": 200,
+              "Size": 7879,
+              "URL": "http://localhost:23232/datatables_ticket_list/eyJmaWx0ZXJpbmciOiB7InN0YXR1c19faW4iOiBbMSwgMl19LCAic29ydGluZyI6ICJjcmVhdGVkIiwgInNlYXJjaF9zdHJpbmciOiAiIiwgInNvcnRyZXZlcnNlIjogZmFsc2V9?draw=1&columns%5B0%5D%5Bdata%5D=id&columns%5B0%5D%5Bname%5D=&columns%5B0%5D%5Bsearchable%5D=true&columns%5B0%5D%5Borderable%5D=false&columns%5B0%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B0%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B1%5D%5Bdata%5D=ticket&columns%5B1%5D%5Bname%5D=&columns%5B1%5D%5Bsearchable%5D=true&columns%5B1%5D%5Borderable%5D=true&columns%5B1%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B1%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B2%5D%5Bdata%5D=priority&columns%5B2%5D%5Bname%5D=&columns%5B2%5D%5Bsearchable%5D=true&columns%5B2%5D%5Borderable%5D=true&columns%5B2%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B2%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B3%5D%5Bdata%5D=queue&columns%5B3%5D%5Bname%5D=&columns%5B3%5D%5Bsearchable%5D=true&columns%5B3%5D%5Borderable%5D=true&columns%5B3%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B3%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B4%5D%5Bdata%5D=status&columns%5B4%5D%5Bname%5D=&columns%5B4%5D%5Bsearchable%5D=true&columns%5B4%5D%5Borderable%5D=true&columns%5B4%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B4%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B5%5D%5Bdata%5D=created&columns%5B5%5D%5Bname%5D=&columns%5B5%5D%5Bsearchable%5D=true&columns%5B5%5D%5Borderable%5D=true&columns%5B5%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B5%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B6%5D%5Bdata%5D=due_date&columns%5B6%5D%5Bname%5D=&columns%5B6%5D%5Bsearchable%5D=true&columns%5B6%5D%5Borderable%5D=true&columns%5B6%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B6%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B7%5D%5Bdata%5D=assigned_to&columns%5B7%5D%5Bname%5D=&columns%5B7%5D%5Bsearchable%5D=true&columns%5B7%5D%5Borderable%5D=true&columns%5B7%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B7%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B8%5D%5Bdata%5D=submitter&columns%5B8%5D%5Bname%5D=&columns%5B8%5D%5Bsearchable%5D=true&columns%5B8%5D%5Borderable%5D=true&columns%5B8%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B8%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B9%5D%5Bdata%5D=time_spent&columns%5B9%5D%5Bname%5D=&columns%5B9%5D%5Bsearchable%5D=true&columns%5B9%5D%5Borderable%5D=true&columns%5B9%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B9%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B10%5D%5Bdata%5D=kbitem&columns%5B10%5D%5Bname%5D=&columns%5B10%5D%5Bsearchable%5D=true&columns%5B10%5D%5Borderable%5D=true&columns%5B10%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B10%5D%5Bsearch%5D%5Bregex%5D=false&order%5B0%5D%5Bcolumn%5D=0&order%5B0%5D%5Bdir%5D=asc&start=0&length=25&search%5Bvalue%5D=&search%5Bregex%5D=false&_=1645808383498"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/javascript",
+              "DownloadTime": 16,
+              "EventId": 613,
+              "HttpStatus": 200,
+              "Size": 267124,
+              "URL": "http://localhost:23232/static/helpdesk/vendor/timeline3/js/timeline.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/javascript",
+              "DownloadTime": 16,
+              "EventId": 610,
+              "HttpStatus": 200,
+              "Size": 1326,
+              "URL": "http://localhost:23232/static/helpdesk/filter.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/css",
+              "DownloadTime": 0,
+              "EventId": 606,
+              "HttpStatus": 200,
+              "Size": 93440,
+              "URL": "http://localhost:23232/static/helpdesk/vendor/timeline3/css/timeline.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 188,
+              "EventId": 600,
+              "HttpStatus": 200,
+              "Size": 33068,
+              "URL": "http://localhost:23232/tickets/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 46,
+              "EventId": 597,
+              "HttpStatus": 302,
+              "Size": 0,
+              "URL": "http://localhost:23232/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 656,
+              "EventId": 593,
+              "HttpStatus": 302,
+              "Size": 0,
+              "URL": "http://localhost:23232/login/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 63,
+              "EventId": 579,
+              "HttpStatus": 404,
+              "Size": 12611,
+              "URL": "http://localhost:23232/favicon.ico"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 47,
+              "EventId": 576,
+              "HttpStatus": 200,
+              "Size": 6064,
+              "URL": "http://localhost:23232/login/?next=/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 110,
+              "EventId": 535,
+              "HttpStatus": 404,
+              "Size": 12611,
+              "URL": "http://localhost:23232/favicon.ico"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "font/woff",
+              "DownloadTime": 16,
+              "EventId": 526,
+              "HttpStatus": 200,
+              "Size": 104280,
+              "URL": "http://localhost:23232/static/helpdesk/vendor/fontawesome-free/webfonts/fa-solid-900.woff"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "font/woff",
+              "DownloadTime": 0,
+              "EventId": 515,
+              "HttpStatus": 200,
+              "Size": 16772,
+              "URL": "http://localhost:23232/static/helpdesk/vendor/fontawesome-free/webfonts/fa-regular-400.woff"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/vnd.ms-fontobject",
+              "DownloadTime": 31,
+              "EventId": 500,
+              "HttpStatus": 200,
+              "Size": 204745,
+              "URL": "http://localhost:23232/static/helpdesk/vendor/fontawesome-free/webfonts/fa-solid-900.eot?"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/vnd.ms-fontobject",
+              "DownloadTime": 16,
+              "EventId": 495,
+              "HttpStatus": 200,
+              "Size": 34346,
+              "URL": "http://localhost:23232/static/helpdesk/vendor/fontawesome-free/webfonts/fa-regular-400.eot?"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/javascript",
+              "DownloadTime": 31,
+              "EventId": 487,
+              "HttpStatus": 200,
+              "Size": 299,
+              "URL": "http://localhost:23232/static/helpdesk/js/init_datetime_classes.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/javascript",
+              "DownloadTime": 15,
+              "EventId": 477,
+              "HttpStatus": 200,
+              "Size": 82,
+              "URL": "http://localhost:23232/static/helpdesk/js/init_due_date.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/javascript",
+              "DownloadTime": 15,
+              "EventId": 473,
+              "HttpStatus": 200,
+              "Size": 1191,
+              "URL": "http://localhost:23232/static/helpdesk/js/sb-admin.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/javascript",
+              "DownloadTime": 47,
+              "EventId": 467,
+              "HttpStatus": 200,
+              "Size": 5807,
+              "URL": "http://localhost:23232/static/helpdesk/vendor/metisMenu/metisMenu.min.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/javascript",
+              "DownloadTime": 47,
+              "EventId": 462,
+              "HttpStatus": 200,
+              "Size": 253669,
+              "URL": "http://localhost:23232/static/helpdesk/vendor/jquery-ui/jquery-ui.min.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/css",
+              "DownloadTime": 0,
+              "EventId": 458,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "http://localhost:23232/static/helpdesk/helpdesk-customize.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/javascript",
+              "DownloadTime": 16,
+              "EventId": 450,
+              "HttpStatus": 200,
+              "Size": 5405,
+              "URL": "http://localhost:23232/static/helpdesk/vendor/datatables/js/buttons.colVis.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/javascript",
+              "DownloadTime": 31,
+              "EventId": 448,
+              "HttpStatus": 200,
+              "Size": 49398,
+              "URL": "http://localhost:23232/static/helpdesk/vendor/datatables/js/dataTables.buttons.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/javascript",
+              "DownloadTime": 16,
+              "EventId": 438,
+              "HttpStatus": 200,
+              "Size": 4693,
+              "URL": "http://localhost:23232/static/helpdesk/vendor/datatables/js/dataTables.bootstrap4.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/javascript",
+              "DownloadTime": 16,
+              "EventId": 427,
+              "HttpStatus": 200,
+              "Size": 448564,
+              "URL": "http://localhost:23232/static/helpdesk/vendor/datatables/js/jquery.dataTables.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/javascript",
+              "DownloadTime": 31,
+              "EventId": 420,
+              "HttpStatus": 200,
+              "Size": 159638,
+              "URL": "http://localhost:23232/static/helpdesk/vendor/chart.js/Chart.min.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/javascript",
+              "DownloadTime": 32,
+              "EventId": 417,
+              "HttpStatus": 200,
+              "Size": 84152,
+              "URL": "http://localhost:23232/static/helpdesk/vendor/bootstrap/js/bootstrap.bundle.min.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/javascript",
+              "DownloadTime": 16,
+              "EventId": 415,
+              "HttpStatus": 200,
+              "Size": 2532,
+              "URL": "http://localhost:23232/static/helpdesk/vendor/jquery-easing/jquery.easing.min.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/javascript",
+              "DownloadTime": 16,
+              "EventId": 412,
+              "HttpStatus": 200,
+              "Size": 89476,
+              "URL": "http://localhost:23232/static/helpdesk/vendor/jquery/jquery.min.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/css",
+              "DownloadTime": 15,
+              "EventId": 409,
+              "HttpStatus": 200,
+              "Size": 1905,
+              "URL": "http://localhost:23232/static/helpdesk/helpdesk-extend.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/css",
+              "DownloadTime": 16,
+              "EventId": 406,
+              "HttpStatus": 200,
+              "Size": 5799,
+              "URL": "http://localhost:23232/static/helpdesk/vendor/datatables/css/dataTables.bootstrap4.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/css",
+              "DownloadTime": 16,
+              "EventId": 404,
+              "HttpStatus": 200,
+              "Size": 34810,
+              "URL": "http://localhost:23232/static/helpdesk/vendor/jquery-ui/jquery-ui.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/css",
+              "DownloadTime": 16,
+              "EventId": 402,
+              "HttpStatus": 200,
+              "Size": 6871,
+              "URL": "http://localhost:23232/static/helpdesk/css/sb-admin.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/css",
+              "DownloadTime": 47,
+              "EventId": 399,
+              "HttpStatus": 200,
+              "Size": 433,
+              "URL": "http://localhost:23232/static/helpdesk/vendor/morrisjs/morris.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/css",
+              "DownloadTime": 46,
+              "EventId": 396,
+              "HttpStatus": 200,
+              "Size": 2615,
+              "URL": "http://localhost:23232/static/helpdesk/vendor/metisMenu/metisMenu.min.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/css",
+              "DownloadTime": 31,
+              "EventId": 393,
+              "HttpStatus": 200,
+              "Size": 11742,
+              "URL": "http://localhost:23232/static/helpdesk/vendor/datatables/css/buttons.dataTables.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/css",
+              "DownloadTime": 16,
+              "EventId": 387,
+              "HttpStatus": 200,
+              "Size": 59344,
+              "URL": "http://localhost:23232/static/helpdesk/vendor/fontawesome-free/css/all.min.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/css",
+              "DownloadTime": 15,
+              "EventId": 369,
+              "HttpStatus": 200,
+              "Size": 160392,
+              "URL": "http://localhost:23232/static/helpdesk/vendor/bootstrap/css/bootstrap.min.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 172,
+              "EventId": 366,
+              "HttpStatus": 200,
+              "Size": 12107,
+              "URL": "http://localhost:23232/"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    }
+  ],
+  "WebSocket": {
+    "IncludeInScript": false,
+    "IsScriptIncludeWebSocket": false
+  },
+  "NumberOfCorrelations": 7
+}

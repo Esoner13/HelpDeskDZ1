@@ -1,0 +1,17 @@
+[t3]
+FileName1=t3.html
+URL1=http://localhost:23232/tickets/
+Total=4
+RequestHeaderFile=t3_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t3_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_3.xml
+FileName2=t3_timeline.css
+URL2=http://localhost:23232/static/helpdesk/vendor/timeline3/css/timeline.css
+FileName3=t3_timeline.html
+URL3=http://localhost:23232/static/helpdesk/vendor/timeline3/js/timeline.js
+FileName4=t3_filter.html
+URL4=http://localhost:23232/static/helpdesk/filter.js
+[ProtocolInfo]
+ProtocolId=QTWeb
